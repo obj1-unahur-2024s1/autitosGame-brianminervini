@@ -1,0 +1,24 @@
+// la extension wpgm seria una extension de programa dentro de wwollok 
+
+import wollok.game.*   // necesitamos importar todas las librerias relacionadas a wollok game 
+import auto.*
+
+
+program miPrimerWollokGame { 
+	// que arraque el juego ! 
+	game.title("Jueguito de autos")
+	// limites del tablero de juego 
+	game.width(14)
+	game.height(8) // modificamos los tamaños del tablero 
+	
+	
+	// fondo de tablero de juego 
+	game.boardGround("empedrado.jpg")
+	
+	game.addVisual(auto) // agrega la imagen a nuestro juego 
+	
+	
+	
+	game.start()  // este codigo sirve para arrancar el juego / programa 
+} 
+
